@@ -9,7 +9,6 @@ const Footer = ({theme}) => {
         <a 
           className={`text-${theme} link`} 
           href="https://github.com/Atugriceri"
-          target="_blank"
         >
           Alper Tugriçeri
         </a>
@@ -18,7 +17,6 @@ const Footer = ({theme}) => {
         <li>
           <a 
             href="https://www.linkedin.com/in/alpertugriceri/"
-            target="_blank"
           >
             <i className={`bi bi-linkedin text-${theme}`}></i>
           </a>
@@ -26,7 +24,6 @@ const Footer = ({theme}) => {
         <li>
           <a 
             href="https://github.com/Atugriceri"
-            target="_blank"
           >
             <i className={`bi bi-github text-${theme}`}></i>
           </a>
