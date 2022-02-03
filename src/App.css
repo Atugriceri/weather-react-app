@@ -165,7 +165,7 @@ select option {
   grid-column: col 1 / span 12;
 	grid-row: row 2;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); 
+	grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); 
 }
 
 .card {
