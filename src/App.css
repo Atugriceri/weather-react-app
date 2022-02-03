@@ -227,7 +227,7 @@ footer {
   grid-column: col 1 / span 12;
 	grid-row: row 3;
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 2rem;
   font-size: 18px;
   font-weight: 200;
 }
