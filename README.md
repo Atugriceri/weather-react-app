@@ -1,70 +1,140 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div id="top"></div>
+            
+[![MIT License][license-shield]](https://github.com/Atugriceri/weather-react-app/blob/main/LICENSE)
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/alpertugriceri/)
 
-## Available Scripts
 
-In the project directory, you can run:
+<br />
+<div align="center">
+  <a href="https://github.com/Atugriceri/weather-react-app">
+    <img src="https://basmilius.github.io/weather-icons/production/fill/all/clear-day.svg" alt="Logo" width="80" height="80">
+  </a>
+  <h3 align="center">Weather-React-App</h3>
 
-### `npm start`
+  <p align="center">
+    The project where you can follow the seven-day weather forecast.
+    <br />
+    <br />
+    <a href="https://atugriceri-weather-react-app.netlify.app/">View Demo</a>
+  </p>
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-### `npm test`
+![PROJECT_SCREENSHOT_01](./src/Assets/screenshot_01.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Weather application where you can reach 7-day maximum and minimum temperature values ​​by selecting any city of Turkey, together with icons reflecting the general weather conditions.
 
-### `npm run build`
+The project was developed in conjunction with React.js, including Context, Hooks, and Life Cycles Methods. Styled with Pure CSS and Grid Layout. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Built With
 
-### `npm run eject`
+* [React.js](https://reactjs.org/)
+* [Axios](https://www.npmjs.com/package/axios)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<!-- GETTING STARTED -->
+## Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ - Sign up to [www.openweathermap.org](https://openweathermap.org/) with your e-mail and get the API key.
+ -  Fork the project and clone it locally.
+ -  Create a file at the root of the project called .env with the following contents:
 
-## Learn More
+    ```sh
+    REACT_APP_API_KEY=YOUR API KEY HERE
+    ```
+ -  In the project directory, ou can follow the steps below to download the dependencies:
+     - Install with npm:
+     ```sh
+     npm i
+     ```
+     - Install with yarn:
+     ```sh
+     yarn
+     ```
+- In the project directory, you can run:
+  - Run with npm:
+  ```sh
+  npm run
+  ```
+  - Run with yarn:
+  ```sh
+  yarn start
+  ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+You can select the city and change the site theme as shown below.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![PROJECT_SCREENSHOT_01](./src/Assets/screenshot_01.png)
 
-### Analyzing the Bundle Size
+![PROJECT_SCREENSHOT_02](./src/Assets/screenshot_02.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[See it live!](https://atugriceri-weather-react-app.netlify.app/)
 
-### Making a Progressive Web App
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contact
 
-### `npm run build` fails to minify
+Alper Tugriçeri - [Linkedin](https://www.linkedin.com/in/alpertugriceri/) - alpertugriceri@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link: [https://github.com/atugriceri/weather-react-app](https://github.com/atugriceri/weather-react-app)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* [Weather Icons](https://github.com/basmilius/weather-icons)
+* [Bootstrap Icons](https://icons.getbootstrap.com/)
+* [Cities of JSON](https://gist.github.com/ozdemirburak)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
