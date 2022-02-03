@@ -5,7 +5,7 @@ const Footer = ({theme}) => {
   return (
     <footer>
       <p className={`text-${theme}`}>
-        Coded by
+        Copyright &copy; 2022 - Now,
         <a 
           className={`text-${theme} link`} 
           href="https://github.com/Atugriceri"
